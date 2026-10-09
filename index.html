@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planificación de clases con IA · Crack The Code</title>
+<meta name="description" content="Ruta de 5 pasos, tutoriales y kit de recuperación para planificar clases con IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azul:#1D5BBC; --azul-osc:#163F8A; --azul-claro:#E2F2FF; --azul-borde:#BFE1FC;
+    --naranja:#E57B43; --naranja-osc:#AC5734; --naranja-claro:#FFEFE7;
+    --texto:#343A40; --muted:#6C757D; --borde:#E9ECEF; --fondo:#F8F9FB; --card:#FFFFFF;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--texto);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+
+  header{background:var(--azul);color:#fff;padding:56px 0 64px}
+  .marca{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+  h1{font-family:Lora,serif;font-size:clamp(32px,5vw,52px);line-height:1.08;margin:12px 0 14px;letter-spacing:-.01em}
+  header p{max-width:600px;margin:0;font-size:17px;opacity:.92}
+
+  main{padding:40px 0 64px}
+  section{margin-bottom:44px}
+  h2{font-family:Lora,serif;font-size:24px;margin:0 0 6px;color:var(--azul-osc)}
+  .intro{margin:0 0 18px;color:var(--muted);font-size:15px}
+
+  .pasos{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  .paso{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--borde);border-radius:14px;padding:16px 18px;transition:border-color .15s,box-shadow .15s,transform .15s}
+  .paso:hover,.paso:focus-visible{border-color:var(--azul-borde);box-shadow:0 6px 20px rgba(29,91,188,.10);transform:translateY(-1px);outline:none}
+  .num{flex:none;width:44px;height:44px;border-radius:50%;background:var(--azul-claro);color:var(--azul);display:grid;place-items:center;font-weight:600;font-size:18px}
+  .paso .txt{flex:1;min-width:0}
+  .etq{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--azul)}
+  .tit{font-weight:600;font-size:16.5px;margin-top:2px}
+  .flecha{flex:none;color:var(--azul);font-size:20px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .card{display:block;background:var(--card);border:1px solid var(--borde);border-radius:14px;padding:20px;transition:border-color .15s,box-shadow .15s,transform .15s}
+  .card:hover,.card:focus-visible{border-color:var(--azul-borde);box-shadow:0 6px 20px rgba(29,91,188,.10);transform:translateY(-1px);outline:none}
+  .card .tit{font-size:17px;margin:6px 0 4px}
+  .card p{margin:0;color:var(--muted);font-size:14.5px}
+
+  .kit{background:var(--naranja-claro);border-color:#F6D3BF}
+  .kit .etq{color:var(--naranja-osc)}
+  .kit:hover,.kit:focus-visible{border-color:var(--naranja);box-shadow:0 6px 20px rgba(229,123,67,.15)}
+
+  footer{border-top:1px solid var(--borde);padding:20px 0;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="marca">Crack The Code · Formación docente</div>
+    <h1>Planificación de clases con IA</h1>
+    <p>Una ruta de cinco pasos para diseñar tu clase con un agente de IA que conoce tu salón y trabaja como tú.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>La ruta</h2>
+    <p class="intro">Avanza en orden: cada paso se apoya en el anterior.</p>
+    <ol class="pasos">
+      <li><a class="paso" href="paso-1.html"><span class="num">1</span><span class="txt"><span class="etq">Paso 1</span><div class="tit">Hoy partimos de lo que tú ya sabes hacer</div></span><span class="flecha" aria-hidden="true">→</span></a></li>
+      <li><a class="paso" href="paso-2.html"><span class="num">2</span><span class="txt"><span class="etq">Paso 2</span><div class="tit">¿Y si tuvieras un colega que ya conoce tu salón y trabaja como tú?</div></span><span class="flecha" aria-hidden="true">→</span></a></li>
+      <li><a class="paso" href="paso-3.html"><span class="num">3</span><span class="txt"><span class="etq">Paso 3</span><div class="tit">¿Qué hace el estudiante mientras tú enseñas?</div></span><span class="flecha" aria-hidden="true">→</span></a></li>
+      <li><a class="paso" href="paso-4.html"><span class="num">4</span><span class="txt"><span class="etq">Paso 4</span><div class="tit">¿Cómo sabrás que aprendieron?</div></span><span class="flecha" aria-hidden="true">→</span></a></li>
+      <li><a class="paso" href="paso-5.html"><span class="num">5</span><span class="txt"><span class="etq">Paso 5</span><div class="tit">Tu clase ya existe. Hoy la pones a prueba.</div></span><span class="flecha" aria-hidden="true">→</span></a></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Tutoriales</h2>
+    <p class="intro">Guías prácticas para acompañar la ruta.</p>
+    <div class="grid">
+      <a class="card" href="tutorial-1.html"><span class="etq">Tutorial 1</span><div class="tit">Crea tu agente de IA</div><p>Configura paso a paso el agente que te ayudará a planificar.</p></a>
+      <a class="card" href="tutorial-2.html"><span class="etq">Tutorial 2</span><div class="tit">Tus recursos con IA</div><p>Genera materiales y recursos para tu clase con ayuda de la IA.</p></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>¿Te perdiste una sesión?</h2>
+    <p class="intro">Recupera lo esencial por tu cuenta.</p>
+    <div class="grid">
+      <a class="card kit" href="kit-recuperacion.html"><span class="etq">Kit de recuperación</span><div class="tit">Crea tu agente de IA y planifica tu clase con él</div><p>Todo el recorrido en un solo documento para ponerte al día.</p></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© Crack The Code · Innovación Educativa</div>
+</footer>
+</body>
+</html>
